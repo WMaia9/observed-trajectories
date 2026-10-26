@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "delphi-aou: auditing and modeling disease trajectory models under informative EHR observation"
+authors:
+  - family-names: Maia
+    given-names: Wesley
+    affiliation: "University of California, Merced"
+version: 0.2.0
+date-released: 2026-10-26
+license: MIT
+keywords:
+  - electronic health records
+  - disease trajectory models
+  - evaluation
+  - All of Us

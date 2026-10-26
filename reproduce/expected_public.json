@@ -1,0 +1,14 @@
+{
+ "_about": "Values from our run of reproduce/run_public.sh on Oct 17, 2026 (official repository fb72166, simulated UK Biobank data, 500 CPU iterations, seed 42). Protocol properties come from the evaluation code and must match closely; AUCs depend on the short training and get a wider tolerance.",
+ "protocol": {
+  "share_controls_with_noevent_target": {"value": 0.263, "tol": 0.005},
+  "window.share_full_window": {"value": 0.0, "tol": 0.001},
+  "window.share_without_sex_token": {"value": 0.0006, "tol": 0.002}
+ },
+ "audit": {
+  "mean_auc.real": {"value": 0.607, "tol": 0.03},
+  "mean_auc.erased": {"value": 0.573, "tol": 0.03},
+  "mean_auc.count_only": {"value": 0.588, "tol": 0.01},
+  "rho_erased": {"value": 0.68, "tol": 0.15}
+ }
+}

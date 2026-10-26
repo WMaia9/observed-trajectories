@@ -1,0 +1,70 @@
+[
+ {
+  "variant": "A",
+  "rate_anchor": "none",
+  "n": 20000,
+  "iters": 1500,
+  "anchors": 2000,
+  "d": 0.3,
+  "symp": 0.8,
+  "med": 2.0,
+  "seed": 0,
+  "rb": {
+   "logOE_by_quintile": [
+    -0.053,
+    0.357,
+    -0.043,
+    0.116,
+    -0.225
+   ],
+   "gap_Q5_minus_Q1": -0.171,
+   "overall": 0.07
+  },
+  "rb_frozen": {
+   "logOE_by_quintile": [
+    0.009,
+    0.404,
+    -0.002,
+    0.145,
+    -0.2
+   ],
+   "gap_Q5_minus_Q1": -0.209,
+   "overall": 0.114
+  },
+  "seconds": 1627
+ },
+ {
+  "variant": "A",
+  "rate_anchor": "last_dx",
+  "n": 20000,
+  "iters": 1500,
+  "anchors": 2000,
+  "d": 0.3,
+  "symp": 0.8,
+  "med": 2.0,
+  "seed": 0,
+  "rb": {
+   "logOE_by_quintile": [
+    -0.059,
+    0.403,
+    0.008,
+    0.134,
+    -0.259
+   ],
+   "gap_Q5_minus_Q1": -0.2,
+   "overall": 0.088
+  },
+  "rb_frozen": {
+   "logOE_by_quintile": [
+    -0.017,
+    0.453,
+    0.063,
+    0.191,
+    -0.198
+   ],
+   "gap_Q5_minus_Q1": -0.182,
+   "overall": 0.139
+  },
+  "seconds": 1714
+ }
+]

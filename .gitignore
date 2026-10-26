@@ -1,0 +1,38 @@
+# Never commit participant level data, model weights or anything exported from the All of Us Workbench
+*.parquet
+*.pkl
+*.npz
+*.npy
+*.pt
+*.csv
+/data/
+/cache/
+/results/raw/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# Workbench home-directory outputs, if a run is started from inside the repository by mistake
+/logs/
+/runs/
+
+
+# LaTeX build files (keep main.tex, refs.bib, figures and the compiled main.pdf)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+paper/*/neurips/code_anonymized.zip
+
+# Local environments and editors
+.venv/
+.env
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,31 @@
+{
+  "name": "delphi_aou_v1",
+  "seed": 20261012,
+  "split": {"train": 0.80, "val": 0.10, "test": 0.10, "salt": "delphi_aou_split_v1"},
+  "tokens": {
+    "level": "ICD10_level3",
+    "first_occurrence_only": true,
+    "keep_same_day_ties": true,
+    "drop_post_death_events": true,
+    "vocab_from_train_only": true,
+    "min_train_patients_per_token": 25
+  },
+  "cohort": {
+    "require_ehr": true,
+    "min_ehr_years_before_index": 2,
+    "age_min": 40,
+    "age_max": 80
+  },
+  "evaluation": {
+    "age_bands": [[40, 45], [45, 50], [50, 55], [55, 60], [60, 65], [65, 70], [70, 75], [75, 80]],
+    "gap_days": 1,
+    "gap_days_sensitivity": [30, 90],
+    "horizons_years": [1, 2, 5, 10],
+    "min_cases": 25,
+    "min_controls": 25,
+    "incident_only": true,
+    "n_seeds": 5,
+    "n_bootstrap": 1000
+  },
+  "policy": {"min_cell_count_for_export": 21}
+}
